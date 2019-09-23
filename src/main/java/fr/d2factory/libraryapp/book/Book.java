@@ -3,6 +3,8 @@ package fr.d2factory.libraryapp.book;
 /**
  * A simple representation of a book
  */
+
+
 public class Book {
     String title;
     String author;
@@ -12,5 +14,8 @@ public class Book {
         this.title = title;
         this.author = author;
         this.isbn = isbn;
+    }
+    public ISBN getISBN() {
+    	return this.isbn;
     }
 }
